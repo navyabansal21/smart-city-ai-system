@@ -1,12 +1,12 @@
 # Smart City AI System
 # Integrated AI Decision Engine
 
-from fuzzy_logic import detect_congestion
-from uncertainty import handle_uncertainty
-from expert_system import make_decision
-from genetic_algorithm import optimize_traffic_signals
-from fairness import calculate_fairness
-from explainability import explain_ai_decision
+from intelligence.fuzzy_logic import detect_congestion
+from intelligence.uncertainty import handle_uncertainty
+from intelligence.expert_system import make_decision
+from intelligence.genetic_algorithm import optimize_traffic_signals
+from intelligence.fairness import calculate_fairness
+from intelligence.explainability import explain_ai_decision
 
 def run_smart_city_ai(
     vehicle_count,
